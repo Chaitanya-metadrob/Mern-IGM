@@ -6,7 +6,7 @@ const productRoutes = require('./routes/productRoute');
 const quotationRoutes = require('./routes/quotationRoute');
 
 const app = express();
-
+console.log('hello')
 //Middleware
 app.use(cors());
 app.use(express.json());
